@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <head>
+    <title>TOSEM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet"
+	  media="screen">
+  </head>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h2>
+        How do successful and failed projects differ?
+        <br>
+        A Socio-Technical Analysis
+      </h2>
+      <p>Supplementary material for TOSEM submission</p>
+    <a href="https://supplementary-material.github.io/code.zip" class="btn btn-primary">Get Code</a>
+    <a href="https://supplementary-material.github.io/project_results_data.zip" class="btn btn-primary">Get Additional Results</a>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="padded">
+        <h2>Abstract</h2>
+        <p align="justify"><p>
+Software development is at the intersection of the <i>social realm</i>, involving people, and the <i>technical realm</i>, involving artifacts (code, docs, etc.). It has been shown that a socio-technical perspective provides rich information about the state of a software project.
+In particular, we are interested in socio-technical factors that are associated with \emph{project success}. For this purpose, we pose the problem as binary classification problem (success and fail). We show how a set of heterogeneous networks composed of social and technical entities can be jointly embedded in a single vector space enabling mathematically sound comparisons between distinct software projects. Our approach is specifically designed using intuitive metrics stemming from network analysis and statistics to aid in the interpretation of results in the context of software engineering wisdom. From a selection of 12 open-source projects, we perform an empirical study to validate our approach considering three prediction scenarios to test the classification model's ability to generalize to: (1) randomly held-out networks, (2) future networks, and (3) entirely new projects.
+Our results show strong evidence that a socio-technical perspective is superior to a pure social or technical perspective when it comes to predicting the probability of project success. Furthermore, socio-technical developer networks contain structural features that generalize best across projects (we observe prediction accuracies of up to 90%), and we identify key features that are strongly associated with project success. Our results demonstrate that socio-technical networks encode highly relevant but interpretable information for discriminating between unsuccessful and successful projects.
+	</p>
+      </div>
+      <!--/padded-->
+    </div>
+    <!--/col-md---> <div class="col-md-6"> <div class="padded">
+      <h2>Supplementary Website Content</h2> <p align="justify"><p>
+      To ensure full reproducibility of our research, we provide all raw input
+      data and source code that our study is based on. Additionally,
+      this website offers all <i>generated</i> data that result from
+      our calculations. The full analysis requires several hours of
+      execution time on a powerful workstation.</p>
+
+      <p align="justify"><p>
+      For each project, and experiment configuration we provide several additional figures under the get additional results link above:
+      <ul>
+	<li>Each experiment configuration is saved under a single folder contain results from all projects.
+	<li>The folder name encodes the experiment configuration values, please see README for details.</li>
+	<li>Code is available at the get code link above.</li>
+	<li>After completely executing the code, the results directory will contain the same data that's found under the get additional results link.</li>
+      </li>
+      </ul>
+      </p>
+    </div>
+      <!--/padded-->
+    </div>
+    <!--/col-md--->
+  </div>
+  <!--/row-->
+</div>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
